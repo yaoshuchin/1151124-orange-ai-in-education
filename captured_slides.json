@@ -1,0 +1,995 @@
+[
+  {
+    "page": 1,
+    "screenshot": "assets/slides/slide_01.png",
+    "texts": [
+      "Ai在教學上的應用",
+      "橘子老師",
+      "https://www.facebook.com/ju.laoshi",
+      "1",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 2,
+    "screenshot": "assets/slides/slide_02.png",
+    "texts": [
+      "Ai在教學上的應用",
+      "橘子老師",
+      "https://www.facebook.com/ju.laoshi",
+      "橘子老師教室",
+      "https://www.facebook.com/profile.php?id=61580433065847",
+      "2",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕"
+    ],
+    "links": [
+      {
+        "text": "https://www.facebook.com/ju.laoshi",
+        "href": "https://www.facebook.com/ju.laoshi"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "screenshot": "assets/slides/slide_03.png",
+    "texts": [
+      "橘子老師",
+      "https://www.facebook.com/ju.laoshi",
+      "橘子老師教室",
+      "https://www.facebook.com/profile.php?id=61580433065847",
+      "Gemini",
+      "3",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕"
+    ],
+    "links": [
+      {
+        "text": "https://www.facebook.com/profile.php?id=61580433065847",
+        "href": "https://www.facebook.com/profile.php?id=61580433065847"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "screenshot": "assets/slides/slide_04.png",
+    "texts": [
+      "橘子老師教室",
+      "https://www.facebook.com/profile.php?id=61580433065847",
+      "Gemini",
+      "4",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 5,
+    "screenshot": "assets/slides/slide_05.png",
+    "texts": [
+      "Gemini",
+      "5",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 6,
+    "screenshot": "assets/slides/slide_06.png",
+    "texts": [
+      "Gemini",
+      "6",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 7,
+    "screenshot": "assets/slides/slide_07.png",
+    "texts": [
+      "Gemini",
+      "7",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 8,
+    "screenshot": "assets/slides/slide_08.png",
+    "texts": [
+      "Gemini",
+      "語音轉逐字稿-會議記錄",
+      "8",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 9,
+    "screenshot": "assets/slides/slide_09.png",
+    "texts": [
+      "Gemini",
+      "語音轉逐字稿-會議記錄",
+      "建立語音辨識筆記本->上傳語音檔與會議記錄範本",
+      "9",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 10,
+    "screenshot": "assets/slides/slide_10.png",
+    "texts": [
+      "語音轉逐字稿-會議記錄",
+      "Gemini",
+      "建立語音辨識筆記本->上傳語音檔與會議記錄範本",
+      "輸入提示詞雲端硬碟儲存版",
+      "1.開啟Gemini Notebook 中[語音辨識]筆記本，將筆記本中語音檔12月30日 上午行政會報.mp3進行語音辨識，如果語音中有不同人物的語音，請以講者1、講者2來標示，將辨識後的逐字稿儲存在雲端硬碟中會議工具資料夾，並且以當時日期時間為名稱建立資料夾，將辨識後的逐字稿以文字檔儲存在雲端硬碟該資料夾中(檔案命名: 資料夾名稱-辨識逐字稿)",
+      "2.依照Gemini Notebook 中語音辨識筆記本中行政會報會議記錄範本.pdf格式，將逐字稿內容整理成範本格式，並儲存檔案在該資料夾中(檔案命名:資料夾名稱-會議紀錄彙整)",
+      "mp3下載",
+      "會議記錄範例",
+      "10",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 11,
+    "screenshot": "assets/slides/slide_11.png",
+    "texts": [
+      "語音轉逐字稿-會議記錄",
+      "Gemini",
+      "建立語音辨識筆記本->上傳語音檔與會議記錄範本",
+      "輸入提示詞雲端硬碟儲存版",
+      "1.開啟Gemini Notebook 中[語音辨識]筆記本，將筆記本中語音檔12月30日 上午行政會報.mp3進行語音辨識，如果語音中有不同人物的語音，請以講者1、講者2來標示，將辨識後的逐字稿儲存在雲端硬碟中會議工具資料夾，並且以當時日期時間為名稱建立資料夾，將辨識後的逐字稿以文字檔儲存在雲端硬碟該資料夾中(檔案命名: 資料夾名稱-辨識逐字稿)",
+      "2.依照Gemini Notebook 中語音辨識筆記本中行政會報會議記錄範本.pdf格式，將逐字稿內容整理成範本格式，並儲存檔案在該資料夾中(檔案命名:資料夾名稱-會議紀錄彙整)",
+      "mp3下載",
+      "會議記錄範例",
+      "輸入提示詞直接下載版",
+      "開啟Gemini Notebook 中[語音辨識]筆記本，將筆記本中mp3語音檔進行語音辨識，如果語音中有不同人物的語音，請以講者1(身分)、講者2(身分)來標示(如果知道講者身分則標註身分)，將辨識後的逐字稿提供txt檔案下載，檔案命名: 當天日期時間-辨識逐字稿 2.依照Gemini Notebook 中語音辨識筆記本中行政會報會議記錄範本.pdf格式，將逐字稿內容整理成範本格式，提供彙整後會議紀錄google文件檔案下載，檔案命名: 當天日期時間-會議紀錄彙整",
+      "11",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": [
+      {
+        "text": "mp3下載",
+        "href": "https://drive.google.com/file/d/1fNOeymET1Pq02b1i1nA099lB3HewcVya/view?usp=drive_link"
+      },
+      {
+        "text": "會議記錄範例",
+        "href": "https://drive.google.com/file/d/1KG-l6ZB6aJ6lpP6djYCZQt17HVpbdpY7/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "screenshot": "assets/slides/slide_12.png",
+    "texts": [
+      "語音轉逐字稿-會議記錄",
+      "Gemini",
+      "輸入提示詞雲端硬碟儲存版",
+      "1.開啟Gemini Notebook 中[語音辨識]筆記本，將筆記本中語音檔12月30日 上午行政會報.mp3進行語音辨識，如果語音中有不同人物的語音，請以講者1、講者2來標示，將辨識後的逐字稿儲存在雲端硬碟中會議工具資料夾，並且以當時日期時間為名稱建立資料夾，將辨識後的逐字稿以文字檔儲存在雲端硬碟該資料夾中(檔案命名: 資料夾名稱-辨識逐字稿)",
+      "2.依照Gemini Notebook 中語音辨識筆記本中行政會報會議記錄範本.pdf格式，將逐字稿內容整理成範本格式，並儲存檔案在該資料夾中(檔案命名:資料夾名稱-會議紀錄彙整)",
+      "mp3下載",
+      "會議記錄範例",
+      "輸入提示詞直接下載版",
+      "開啟Gemini Notebook 中[語音辨識]筆記本，將筆記本中mp3語音檔進行語音辨識，如果語音中有不同人物的語音，請以講者1(身分)、講者2(身分)來標示(如果知道講者身分則標註身分)，將辨識後的逐字稿提供txt檔案下載，檔案命名: 當天日期時間-辨識逐字稿 2.依照Gemini Notebook 中語音辨識筆記本中行政會報會議記錄範本.pdf格式，將逐字稿內容整理成範本格式，提供彙整後會議紀錄google文件檔案下載，檔案命名: 當天日期時間-會議紀錄彙整",
+      "12",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": [
+      {
+        "text": "mp3下載",
+        "href": "https://drive.google.com/file/d/1fNOeymET1Pq02b1i1nA099lB3HewcVya/view?usp=drive_link"
+      },
+      {
+        "text": "會議記錄範例",
+        "href": "https://drive.google.com/file/d/1KG-l6ZB6aJ6lpP6djYCZQt17HVpbdpY7/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "screenshot": "assets/slides/slide_13.png",
+    "texts": [
+      "語音轉逐字稿-會議記錄",
+      "Gemini",
+      "輸入提示詞直接下載版",
+      "開啟Gemini Notebook 中[語音辨識]筆記本，將筆記本中mp3語音檔進行語音辨識，如果語音中有不同人物的語音，請以講者1(身分)、講者2(身分)來標示(如果知道講者身分則標註身分)，將辨識後的逐字稿提供txt檔案下載，檔案命名: 當天日期時間-辨識逐字稿 2.依照Gemini Notebook 中語音辨識筆記本中行政會報會議記錄範本.pdf格式，將逐字稿內容整理成範本格式，提供彙整後會議紀錄google文件檔案下載，檔案命名: 當天日期時間-會議紀錄彙整",
+      "mp3下載",
+      "會議記錄範例",
+      "建立SKILL",
+      "下載SKILL.md",
+      "修改名稱",
+      "13",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 14,
+    "screenshot": "assets/slides/slide_14.png",
+    "texts": [
+      "語音轉逐字稿-會議記錄",
+      "Gemini",
+      "建立SKILL",
+      "修改名稱",
+      "下載SKILL.md",
+      "上傳SKILL.md檔案",
+      "14",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": [
+      {
+        "text": "下載SKILL.md",
+        "href": "https://drive.google.com/file/d/1kWuWd8PheCCASJsuQmCj59IaDj6BPqQZ/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "screenshot": "assets/slides/slide_15.png",
+    "texts": [
+      "語音轉逐字稿-會議記錄",
+      "Gemini",
+      "建立SKILL",
+      "下載SKILL.md",
+      "修改名稱",
+      "上傳SKILL.md檔案",
+      "15",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 16,
+    "screenshot": "assets/slides/slide_16.png",
+    "texts": [
+      "語音轉逐字稿-會議記錄",
+      "Gemini",
+      "建立SKILL",
+      "上傳SKILL.md檔案",
+      "課程複習射擊遊戲",
+      "16",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 17,
+    "screenshot": "assets/slides/slide_17.png",
+    "texts": [
+      "語音轉逐字稿-會議記錄",
+      "Gemini",
+      "建立SKILL",
+      "課程複習射擊遊戲",
+      "SKILL下載",
+      "17",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 18,
+    "screenshot": "assets/slides/slide_18.png",
+    "texts": [
+      "課程複習射擊遊戲",
+      "SKILL下載",
+      "18",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": [
+      {
+        "text": "SKILL下載",
+        "href": "https://drive.google.com/file/d/1gDYoxgQByYMh8JpNyZSaNYY-cdhViRA-/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "screenshot": "assets/slides/slide_19.png",
+    "texts": [
+      "課程複習射擊遊戲",
+      "SKILL下載",
+      "上傳資料 ，",
+      "輸入",
+      "@",
+      "19",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 20,
+    "screenshot": "assets/slides/slide_20.png",
+    "texts": [
+      "課程複習射擊遊戲",
+      "上傳資料 ，",
+      "輸入",
+      "@",
+      "上傳資料 ，輸入 @",
+      "課程複習射擊遊戲-對戰版",
+      "SKILL下載",
+      "20",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 21,
+    "screenshot": "assets/slides/slide_21.png",
+    "texts": [
+      "課程複習射擊遊戲",
+      "上傳資料 ，",
+      "輸入",
+      "@",
+      "課程複習射擊遊戲-對戰版",
+      "SKILL下載",
+      "@Google 雲端硬碟 讀取射擊遊戲/南一版_七年級科技(資訊科技).pdf，依照執行當天日期讀取當週單元/主題名稱與活動內容，並對照射擊遊戲資料夾中課本內容檔案，使用 @射擊遊戲對戰版 輸入對應課本內容生成對戰遊戲html檔案",
+      "課本",
+      "檔案",
+      "教學計劃",
+      "21",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": [
+      {
+        "text": "SKILL下載",
+        "href": "https://drive.google.com/file/d/1CbrV0xM5RQGLvK4t6YIPmdX921V56Xit/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "screenshot": "assets/slides/slide_22.png",
+    "texts": [
+      "課程複習射擊遊戲-對戰版",
+      "SKILL下載",
+      "@Google 雲端硬碟 讀取射擊遊戲/南一版_七年級科技(資訊科技).pdf，依照執行當天日期讀取當週單元/主題名稱與活動內容，並對照射擊遊戲資料夾中課本內容檔案，使用 @射擊遊戲對戰版 輸入對應課本內容生成對戰遊戲html檔案",
+      "課本檔案",
+      "教學計劃",
+      "課程複習射擊遊戲-對戰版排程執行",
+      "22",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": [
+      {
+        "text": "課本檔案",
+        "href": "https://drive.google.com/file/d/1SFMq5LhbZFLrAXYbNca9rIbU0Erl452E/view?usp=drive_link"
+      },
+      {
+        "text": "教學計劃",
+        "href": "https://drive.google.com/file/d/1qIuDvyW9BqyrMGZQrymCSAzOYImL2bly/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "screenshot": "assets/slides/slide_23.png",
+    "texts": [
+      "課程複習射擊遊戲-對戰版",
+      "@Google 雲端硬碟 讀取射擊遊戲/南一版_七年級科技(資訊科技).pdf，依照執行當天日期讀取當週單元/主題名稱與活動內容，並對照射擊遊戲資料夾中課本內容檔案，使用 @射擊遊戲對戰版 輸入對應課本內容生成對戰遊戲html檔案",
+      "課本",
+      "檔案",
+      "教學計劃",
+      "課程複習射擊遊戲-對戰版排程執行",
+      "@Google 雲端硬碟 讀取射擊遊戲/南一版_七年級科技(資訊科技).pdf，依照執行當天日期讀取當週單元/主題名稱與活動內容，並對照射擊遊戲資料夾中課本內容檔案，使用 @射擊遊戲對戰版 輸入對應課本內容生成對戰遊戲html檔案，並且將生成的html檔案儲存在射擊遊戲/output資料夾中，檔案名稱為當日日期.html",
+      "23",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 24,
+    "screenshot": "assets/slides/slide_24.png",
+    "texts": [
+      "課程複習射擊遊戲-對戰版排程執行",
+      "@Google 雲端硬碟 讀取射擊遊戲/南一版_七年級科技(資訊科技).pdf，依照執行當天日期讀取當週單元/主題名稱與活動內容，並對照射擊遊戲資料夾中課本內容檔案，使用 @射擊遊戲對戰版 輸入對應課本內容生成對戰遊戲html檔案，並且將生成的html檔案儲存在射擊遊戲/output資料夾中，檔案名稱為當日日期.html",
+      "雲端上的繪本生成器",
+      "Google 體系AI工作流新視野",
+      "24",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 25,
+    "screenshot": "assets/slides/slide_25.png",
+    "texts": [
+      "課程複習射擊遊戲-對戰版排程執行",
+      "@Google 雲端硬碟 讀取射擊遊戲/南一版_七年級科技(資訊科技).pdf，依照執行當天日期讀取當週單元/主題名稱與活動內容，並對照射擊遊戲資料夾中課本內容檔案，使用 @射擊遊戲對戰版 輸入對應課本內容生成對戰遊戲html檔案，並且將生成的html檔案儲存在射擊遊戲/output資料夾中，檔案名稱為當日日期.html",
+      "雲端上的繪本生成器",
+      "Google 體系AI工作流新視野",
+      "1.建立SKILL",
+      "2.排程執行",
+      "25",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 26,
+    "screenshot": "assets/slides/slide_26.png",
+    "texts": [
+      "雲端上的繪本生成器",
+      "Google 體系AI工作流新視野",
+      "1.建立SKILL",
+      "2.排程執行",
+      "Notebook",
+      "繪本製作",
+      "26",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 27,
+    "screenshot": "assets/slides/slide_27.png",
+    "texts": [
+      "1.建立SKILL",
+      "2.排程執行",
+      "Notebook",
+      "繪本製作",
+      "Notebook 繪本製作",
+      "SKILL",
+      "下載提示詞",
+      "27",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 28,
+    "screenshot": "assets/slides/slide_28.png",
+    "texts": [
+      "Notebook",
+      "繪本製作",
+      "Notebook 繪本製作",
+      "SKILL",
+      "Notebook 繪本製作 SKILL",
+      "下載提示詞",
+      "28",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": [
+      {
+        "text": "下載提示詞",
+        "href": "https://drive.google.com/file/d/1Ye3X8LeGPyLOcKHUTN2m6PeA2Migs5Lu/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "page": 29,
+    "screenshot": "assets/slides/slide_29.png",
+    "texts": [
+      "Notebook 繪本製作",
+      "SKILL",
+      "下載提示詞",
+      "Notebook 繪本製作 SKILL",
+      "29",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 30,
+    "screenshot": "assets/slides/slide_30.png",
+    "texts": [
+      "Notebook 繪本製作",
+      "SKILL",
+      "Notebook 繪本製作 SKILL",
+      "30",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 31,
+    "screenshot": "assets/slides/slide_31.png",
+    "texts": [
+      "Notebook 繪本製作",
+      "SKILL",
+      "Notebook 繪本製作 SKILL",
+      "31",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 32,
+    "screenshot": "assets/slides/slide_32.png",
+    "texts": [
+      "Notebook 繪本製作",
+      "SKILL",
+      "Notebook 繪本製作 SKILL",
+      "生成角色圖像",
+      "32",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 33,
+    "screenshot": "assets/slides/slide_33.png",
+    "texts": [
+      "Notebook 繪本製作",
+      "SKILL",
+      "生成角色圖像",
+      "Notebook 繪本製作 SKILL",
+      "將腳本內容與角色設定圖像存成pdf",
+      "33",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 34,
+    "screenshot": "assets/slides/slide_34.png",
+    "texts": [
+      "Notebook 繪本製作",
+      "SKILL",
+      "生成角色圖像",
+      "將腳本內容與角色設定圖像存成pdf",
+      "Notebook 繪本製作 SKILL",
+      "直",
+      "接生成每一頁圖像",
+      "生成第一頁圖像，滿版不要有文字",
+      "34",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 35,
+    "screenshot": "assets/slides/slide_35.png",
+    "texts": [
+      "Notebook 繪本製作",
+      "SKILL",
+      "將腳本內容與角色設定圖像存成pdf",
+      "直",
+      "接生成每一頁圖像",
+      "生成第一頁圖像，滿版不要有文字",
+      "Notebook 繪本製作 SKILL",
+      "直接生成每一頁圖像",
+      "依照",
+      "內容製作繪本",
+      "設定文件",
+      "35",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 36,
+    "screenshot": "assets/slides/slide_36.png",
+    "texts": [
+      "Notebook 繪本製作",
+      "SKILL",
+      "直",
+      "接生成每一頁圖像",
+      "生成第一頁圖像，滿版不要有文字",
+      "依照",
+      "內容製作繪本",
+      "設定文件",
+      "Notebook 繪本製作 SKILL",
+      "依照內容製作繪本",
+      "將SKILL排程自動執行",
+      "Notebook 繪本製作 排程",
+      "36",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 37,
+    "screenshot": "assets/slides/slide_37.png",
+    "texts": [
+      "Notebook 繪本製作",
+      "SKILL",
+      "依照",
+      "內容製作繪本",
+      "設定文件",
+      "將SKILL排程自動執行",
+      "Notebook 繪本製作 排程",
+      "下載排程提示詞",
+      "37",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 38,
+    "screenshot": "assets/slides/slide_38.png",
+    "texts": [
+      "將SKILL排程自動執行",
+      "Notebook 繪本製作 排程",
+      "下載排程提示詞",
+      "Notebook 繪本製作",
+      "SKILL",
+      "38",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": [
+      {
+        "text": "下載排程提示詞",
+        "href": "https://drive.google.com/file/d/1qkEgJr5MSj7oDbyoAPGRfBc7P2bUAjZk/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "page": 39,
+    "screenshot": "assets/slides/slide_39.png",
+    "texts": [
+      "Notebook 繪本製作 排程",
+      "下載排程提示詞",
+      "Notebook 繪本製作",
+      "SKILL",
+      "Notebook 繪本製作 SKILL",
+      "範例檔案",
+      "39",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 40,
+    "screenshot": "assets/slides/slide_40.png",
+    "texts": [
+      "Notebook 繪本製作",
+      "SKILL",
+      "Notebook 繪本製作 SKILL",
+      "範例檔案",
+      "將pdf上傳NotebooK",
+      "40",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": [
+      {
+        "text": "範例檔案",
+        "href": "https://drive.google.com/file/d/1KEPs8ua-EWu7PwvynEu0oOjCHRcc17ic/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "page": 41,
+    "screenshot": "assets/slides/slide_41.png",
+    "texts": [
+      "Notebook 繪本製作",
+      "SKILL",
+      "範例檔案",
+      "將pdf上傳NotebooK",
+      "Notebook 繪本製作 SKILL",
+      "影",
+      "片摘要",
+      "依照資料來源生成10頁皮克斯風格圖像繪本故事，每頁故事內容依照腳本內容描述，畫面依照每頁描述畫面呈現，依照角色設定故事角色1，角色2，每一頁中角色造型五官須維持與設定一致",
+      "41",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 42,
+    "screenshot": "assets/slides/slide_42.png",
+    "texts": [
+      "Notebook 繪本製作",
+      "SKILL",
+      "將pdf上傳NotebooK",
+      "影",
+      "片摘要",
+      "依照資料來源生成10頁皮克斯風格圖像繪本故事，每頁故事內容依照腳本內容描述，畫面依照每頁描述畫面呈現，依照角色設定故事角色1，角色2，每一頁中角色造型五官須維持與設定一致",
+      "影片摘要",
+      "Notebook 繪本製作 SKILL",
+      "42",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 43,
+    "screenshot": "assets/slides/slide_43.png",
+    "texts": [
+      "Notebook 繪本製作",
+      "SKILL",
+      "影",
+      "片摘要",
+      "依照資料來源生成10頁皮克斯風格圖像繪本故事，每頁故事內容依照腳本內容描述，畫面依照每頁描述畫面呈現，依照角色設定故事角色1，角色2，每一頁中角色造型五官須維持與設定一致",
+      "影片摘要",
+      "Notebook 繪本製作 SKILL",
+      "1.7秒",
+      "Gemini",
+      "會考出題大師",
+      "43",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "自動播放",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 44,
+    "screenshot": "assets/slides/slide_44.png",
+    "texts": [
+      "Notebook 繪本製作",
+      "SKILL",
+      "影",
+      "片摘要",
+      "Gemini",
+      "會考出題大師",
+      "直接將SKILL壓縮檔安裝成SKILL",
+      "下載SKILL",
+      "44",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 45,
+    "screenshot": "assets/slides/slide_45.png",
+    "texts": [
+      "Gemini",
+      "會考出題大師",
+      "SKILL",
+      "直接將SKILL壓縮檔安裝成SKILL",
+      "下載SKILL",
+      "45",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": [
+      {
+        "text": "下載SKILL",
+        "href": "https://drive.google.com/file/d/15kB1ypsaHe7TzS2alsHWQNW9Up6JB6Fa/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "page": 46,
+    "screenshot": "assets/slides/slide_46.png",
+    "texts": [
+      "會考出題大師",
+      "SKILL",
+      "Gemini",
+      "直接將SKILL壓縮檔安裝成SKILL",
+      "下載SKILL",
+      "上傳題目截圖",
+      "→ @呼叫SKILL",
+      "範例",
+      "46",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 47,
+    "screenshot": "assets/slides/slide_47.png",
+    "texts": [
+      "會考出題大師",
+      "SKILL",
+      "Gemini",
+      "上傳題目截圖",
+      "→ @呼叫SKILL",
+      "上傳題目截圖 → @呼叫SKILL",
+      "範例",
+      "47",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": [
+      {
+        "text": "範例",
+        "href": "https://drive.google.com/drive/folders/1A1um6EY73KvPilgO9iC31zmezBWAEUvx?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "page": 48,
+    "screenshot": "assets/slides/slide_48.png",
+    "texts": [
+      "會考出題大師",
+      "SKILL",
+      "Gemini",
+      "上傳題目截圖",
+      "→ @呼叫SKILL",
+      "範例",
+      "48",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 49,
+    "screenshot": "assets/slides/slide_49.png",
+    "texts": [
+      "會考出題大師",
+      "SKILL",
+      "Gemini",
+      "49",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 50,
+    "screenshot": "assets/slides/slide_50.png",
+    "texts": [
+      "會考出題大師",
+      "SKILL",
+      "Gemini",
+      "50",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 51,
+    "screenshot": "assets/slides/slide_51.png",
+    "texts": [
+      "會考出題大師",
+      "SKILL",
+      "Gemini",
+      "51",
+      "/",
+      "52",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  },
+  {
+    "page": 52,
+    "screenshot": "assets/slides/slide_52.png",
+    "texts": [
+      "會考出題大師",
+      "SKILL",
+      "Gemini",
+      "52",
+      "/",
+      "在媒體上顯示唯讀輔助字幕",
+      "白色背景"
+    ],
+    "links": []
+  }
+]

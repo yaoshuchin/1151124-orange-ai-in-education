@@ -1,0 +1,4 @@
+*.pyc
+__pycache__/
+test_unlocked_page.png
+canva_page_1.png

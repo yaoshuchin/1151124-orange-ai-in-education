@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ai在教學上的應用 - 橘子老師實戰講座 數位學習平台</title>
+  <meta name="description" content="橘子老師主講：AI在教學上的應用。涵蓋語音辨識與會議記錄自動化、課程複習射擊遊戲HTML5對戰版生成、雲端皮克斯風格繪本生成器、會考出題大師素養評量。">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="light" data-font="medium">
+
+  <!-- 密碼存取保護閘門 (密碼: nato) -->
+  <div class="password-gate-overlay" id="passwordGateModal">
+    <div class="password-card">
+      <div class="lock-avatar-icon">
+        <i class="fas fa-lock"></i>
+      </div>
+      <h2>教學資源安全存取保護</h2>
+      <p>歡迎造訪橘子老師「AI在教學上的應用」實戰教材庫。<br>請輸入通行密碼以解鎖完整課程內容：</p>
+      
+      <div class="password-input-group">
+        <input type="password" id="passwordInput" class="password-input" placeholder="請輸入通行密碼" autocomplete="off" autofocus>
+        <p class="password-error-msg" id="passwordError">
+          <i class="fas fa-exclamation-circle"></i> 密碼錯誤，請重新確認後輸入！
+        </p>
+      </div>
+
+      <button id="btnUnlock" class="btn-unlock">
+        <i class="fas fa-key"></i> 解鎖進入課程平台
+      </button>
+
+      <div style="margin-top: 1.25rem; font-size: 0.8rem; color: var(--text-muted);">
+        <i class="fas fa-shield-alt"></i> 系統安全認證通行閘門
+      </div>
+    </div>
+  </div>
+
+  <!-- 頂部固定導覽列 (含字型大小切換、布景主題切換、安全鎖定) -->
+  <header class="top-navbar">
+    <a href="#" class="brand-section">
+      <div class="brand-logo-badge">
+        <i class="fas fa-robot"></i>
+      </div>
+      <div class="brand-text">
+        <h1>Ai在教學上的應用</h1>
+        <span>橘子老師實戰系列 · 教育工作流新視野</span>
+      </div>
+    </a>
+
+    <!-- 控制工具組 -->
+    <div class="controls-group">
+      <!-- 字型大小切換 (中、大、特大) -->
+      <div class="control-item" title="調整網頁文字大小">
+        <div class="control-label">
+          <i class="fas fa-font"></i> 字型
+        </div>
+        <div class="btn-toggle-group">
+          <button class="btn-toggle active" data-font-val="medium">中</button>
+          <button class="btn-toggle" data-font-val="large">大</button>
+          <button class="btn-toggle" data-font-val="xlarge">特大</button>
+        </div>
+      </div>
+
+      <!-- 布景主題切換 (淺、深、綠、藍) -->
+      <div class="control-item" title="切換配色風格布景">
+        <div class="control-label">
+          <i class="fas fa-palette"></i> 布景
+        </div>
+        <div class="btn-toggle-group">
+          <button class="btn-toggle active" data-theme-val="light">淺</button>
+          <button class="btn-toggle" data-theme-val="dark">深</button>
+          <button class="btn-toggle" data-theme-val="green">綠</button>
+          <button class="btn-toggle" data-theme-val="blue">藍</button>
+        </div>
+      </div>
+
+      <!-- 安全鎖定/登出 -->
+      <button class="btn-lock" id="btnLockSite" title="鎖定目前瀏覽器階段">
+        <i class="fas fa-user-lock"></i> 密碼鎖定
+      </button>
+    </div>
+  </header>
+
+  <!-- 主內容容器 -->
+  <main class="main-wrapper">
+
+    <!-- Hero 介紹橫幅區塊 -->
+    <section class="hero-banner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-sparkles"></i> 2026 最新生成式 AI 與 Agent 實作
+        </div>
+        <h2 class="hero-title">Ai在教學上的應用 · 5大核心落地實戰</h2>
+        <p class="hero-subtitle">
+          由<strong>橘子老師</strong>親授，從行政減負「語音辨識與會議記錄自動化」、引起學習動機的「HTML5複習射擊遊戲對戰版」、引導跨域創意的「雲端繪本生成器」，到深化評量的「會考出題大師」。完整解構 Google 生態系 AI 工作流，實現排程自動執行與課堂即玩！
+        </p>
+
+        <!-- 關鍵指標卡片 -->
+        <div class="hero-meta-grid">
+          <div class="hero-stat-card">
+            <div class="hero-stat-icon"><i class="fas fa-cubes"></i></div>
+            <div class="hero-stat-info">
+              <h3>5 大模組</h3>
+              <p>完整教學情境解構</p>
+            </div>
+          </div>
+          <div class="hero-stat-card">
+            <div class="hero-stat-icon"><i class="fas fa-layer-group"></i></div>
+            <div class="hero-stat-info">
+              <h3>52 頁講義</h3>
+              <p>高清投影片全收錄</p>
+            </div>
+          </div>
+          <div class="hero-stat-card">
+            <div class="hero-stat-icon"><i class="fas fa-terminal"></i></div>
+            <div class="hero-stat-info">
+              <h3>實戰 Prompt</h3>
+              <p>一鍵複製調用指令</p>
+            </div>
+          </div>
+          <div class="hero-stat-card">
+            <div class="hero-stat-icon"><i class="fas fa-download"></i></div>
+            <div class="hero-stat-info">
+              <h3>12 組資源</h3>
+              <p>SKILL與雲端教材包</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 分頁標籤切換導覽 (Tabs Navigation) -->
+    <nav class="tabs-container">
+      <ul class="nav-tabs" id="categoryTabs">
+        <li>
+          <button class="tab-btn active" data-tab="all">
+            <i class="fas fa-th-large"></i> 全部總覽 <span class="badge-count">52</span>
+          </button>
+        </li>
+        <li>
+          <button class="tab-btn" data-tab="intro">
+            <i class="fas fa-chalkboard-teacher"></i> 課程導言 <span class="badge-count">4</span>
+          </button>
+        </li>
+        <li>
+          <button class="tab-btn" data-tab="voice_minutes">
+            <i class="fas fa-microphone-alt"></i> 語音會議紀錄 <span class="badge-count">13</span>
+          </button>
+        </li>
+        <li>
+          <button class="tab-btn" data-tab="shooting_game">
+            <i class="fas fa-gamepad"></i> 複習射擊遊戲 <span class="badge-count">8</span>
+          </button>
+        </li>
+        <li>
+          <button class="tab-btn" data-tab="picture_book">
+            <i class="fas fa-book-open"></i> 雲端繪本生成 <span class="badge-count">19</span>
+          </button>
+        </li>
+        <li>
+          <button class="tab-btn" data-tab="exam_master">
+            <i class="fas fa-file-signature"></i> 會考出題大師 <span class="badge-count">8</span>
+          </button>
+        </li>
+        <li>
+          <button class="tab-btn" data-tab="resources">
+            <i class="fas fa-cloud-download-alt"></i> 下載資源總庫 <span class="badge-count">12</span>
+          </button>
+        </li>
+        <li>
+          <button class="tab-btn" data-tab="prompts">
+            <i class="fas fa-code"></i> 實戰提示詞庫 <span class="badge-count">4</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- 工具列：即時搜尋與全螢幕播放按鈕 -->
+    <div class="toolbar-row">
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" id="searchInput" class="search-input" placeholder="搜尋投影片標題、關鍵字、指令或頁數 (例: 射擊遊戲, 繪本, 逐字稿)...">
+      </div>
+
+      <div class="view-controls">
+        <button class="btn-action-primary" id="btnStartPresentation">
+          <i class="fas fa-play-circle"></i> 啟動簡報播放模式
+        </button>
+      </div>
+    </div>
+
+    <!-- 投影片卡片網格 (動態渲染) -->
+    <section class="slides-grid" id="slidesGrid">
+      <!-- JavaScript will inject cards here -->
+    </section>
+
+    <!-- 教學資源下載總庫 (獨立分頁) -->
+    <section class="resource-center" id="resourceCenter" style="display: none;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem;">
+        <div>
+          <h2 style="font-size: 1.5rem; font-weight: 800;"><i class="fas fa-cloud-download-alt" style="color: var(--accent-primary);"></i> 全套教學資源與 SKILL 技能下載清單</h2>
+          <p style="color: var(--text-secondary); margin-top: 0.3rem;">彙整本次研習所有 Google 雲端硬碟檔案、語音素材、SKILL.md 技能包及範例檔案，可直接點擊開啟或下載：</p>
+        </div>
+      </div>
+
+      <table class="resource-table">
+        <thead>
+          <tr>
+            <th>所屬單元</th>
+            <th>資源名稱</th>
+            <th>檔案類型</th>
+            <th>說明與使用情境</th>
+            <th>快速存取</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="category-tag">講師資訊</span></td>
+            <td><strong>橘子老師個人粉專</strong></td>
+            <td>社群連結</td>
+            <td>追蹤橘子老師第一手 AI 教育應用文章與教學動態</td>
+            <td><a href="https://www.facebook.com/ju.laoshi" target="_blank" class="resource-btn"><i class="fab fa-facebook"></i> 前往粉專</a></td>
+          </tr>
+          <tr>
+            <td><span class="category-tag">講師資訊</span></td>
+            <td><strong>橘子老師教室</strong></td>
+            <td>社群粉專</td>
+            <td>加入橘子老師教學交流教室，獲取教育工具資源包</td>
+            <td><a href="https://www.facebook.com/profile.php?id=61580433065847" target="_blank" class="resource-btn"><i class="fab fa-facebook"></i> 前往專頁</a></td>
+          </tr>
+          <tr>
+            <td><span class="category-tag">語音會議紀錄</span></td>
+            <td><strong>12月30日 上午行政會報.mp3</strong></td>
+            <td>音訊檔 (.mp3)</td>
+            <td>上傳至 Gemini 筆記本進行語音辨識與分角色發言測試</td>
+            <td><a href="https://drive.google.com/file/d/1fNOeymET1Pq02b1i1nA099lB3HewcVya/view?usp=drive_link" target="_blank" class="resource-btn"><i class="fas fa-file-audio"></i> 下載 MP3</a></td>
+          </tr>
+          <tr>
+            <td><span class="category-tag">語音會議紀錄</span></td>
+            <td><strong>行政會報會議記錄範本.pdf</strong></td>
+            <td>標準格式 (.pdf)</td>
+            <td>供 AI 學習標準行政公文格式，自動對齊會議記錄欄位</td>
+            <td><a href="https://drive.google.com/file/d/1KG-l6ZB6aJ6lpP6djYCZQt17HVpbdpY7/view?usp=drive_link" target="_blank" class="resource-btn"><i class="fas fa-file-pdf"></i> 下載範本</a></td>
+          </tr>
+          <tr>
+            <td><span class="category-tag">語音會議紀錄</span></td>
+            <td><strong>語音辨識 SKILL.md</strong></td>
+            <td>技能檔 (.md)</td>
+            <td>下載並自訂名稱，封裝為可重複召喚的一秒會議記錄工具</td>
+            <td><a href="https://drive.google.com/file/d/1kWuWd8PheCCASJsuQmCj59IaDj6BPqQZ/view?usp=drive_link" target="_blank" class="resource-btn"><i class="fas fa-cogs"></i> 下載 SKILL</a></td>
+          </tr>
+          <tr>
+            <td><span class="category-tag">複習射擊遊戲</span></td>
+            <td><strong>課程複習射擊遊戲 SKILL</strong></td>
+            <td>技能壓縮檔</td>
+            <td>將課堂單元一秒轉化為打字射擊與問答闖關 HTML5 遊戲</td>
+            <td><a href="https://drive.google.com/file/d/1gDYoxgQByYMh8JpNyZSaNYY-cdhViRA-/view?usp=drive_link" target="_blank" class="resource-btn"><i class="fas fa-gamepad"></i> 下載單人版</a></td>
+          </tr>
+          <tr>
+            <td><span class="category-tag">複習射擊遊戲</span></td>
+            <td><strong>課程複習射擊遊戲-對戰版 SKILL</strong></td>
+            <td>技能壓縮檔</td>
+            <td>進階雙人同屏/連線即時對戰版，激發學生課堂複習熱情</td>
+            <td><a href="https://drive.google.com/file/d/1CbrV0xM5RQGLvK4t6YIPmdX921V56Xit/view?usp=drive_link" target="_blank" class="resource-btn"><i class="fas fa-users"></i> 下載對戰版</a></td>
+          </tr>
+          <tr>
+            <td><span class="category-tag">複習射擊遊戲</span></td>
+            <td><strong>南一版_七年級科技(資訊科技).pdf</strong></td>
+            <td>課本教材 (.pdf)</td>
+            <td>供 AI 讀取章節內容並對應當週單元產製遊戲題目</td>
+            <td><a href="https://drive.google.com/file/d/1SFMq5LhbZFLrAXYbNca9rIbU0Erl452E/view?usp=drive_link" target="_blank" class="resource-btn"><i class="fas fa-book"></i> 下載課本檔</a></td>
+          </tr>
+          <tr>
+            <td><span class="category-tag">複習射擊遊戲</span></td>
+            <td><strong>學期教學計畫表.pdf</strong></td>
+            <td>課程進度 (.pdf)</td>
+            <td>依照執行當天日期自動判定當週教學進度之依據</td>
+            <td><a href="https://drive.google.com/file/d/1qIuDvyW9BqyrMGZQrymCSAzOYImL2bly/view?usp=drive_link" target="_blank" class="resource-btn"><i class="fas fa-calendar-alt"></i> 下載進度表</a></td>
+          </tr>
+          <tr>
+            <td><span class="category-tag">雲端繪本生成</span></td>
+            <td><strong>Notebook 繪本製作提示詞</strong></td>
+            <td>指令模板</td>
+            <td>包含角色特徵錨定、故事分鏡腳本與 3D 皮克斯風格定義</td>
+            <td><a href="https://drive.google.com/file/d/1Ye3X8LeGPyLOcKHUTN2m6PeA2Migs5Lu/view?usp=drive_link" target="_blank" class="resource-btn"><i class="fas fa-file-alt"></i> 下載提示詞</a></td>
+          </tr>
+          <tr>
+            <td><span class="category-tag">雲端繪本生成</span></td>
+            <td><strong>繪本排程自動執行提示詞</strong></td>
+            <td>自動化指令</td>
+            <td>設定定時無人值守後台批次產製繪本圖像與圖文組裝</td>
+            <td><a href="https://drive.google.com/file/d/1qkEgJr5MSj7oDbyoAPGRfBc7P2bUAjZk/view?usp=drive_link" target="_blank" class="resource-btn"><i class="fas fa-clock"></i> 下載排程詞</a></td>
+          </tr>
+          <tr>
+            <td><span class="category-tag">雲端繪本生成</span></td>
+            <td><strong>繪本製作官方範例檔案</strong></td>
+            <td>範例參考包</td>
+            <td>橘子老師完整驗收之 10 頁皮克斯繪本成品及設定檔</td>
+            <td><a href="https://drive.google.com/file/d/1KEPs8ua-EWu7PwvynEu0oOjCHRcc17ic/view?usp=drive_link" target="_blank" class="resource-btn"><i class="fas fa-images"></i> 下載範例包</a></td>
+          </tr>
+          <tr>
+            <td><span class="category-tag">會考出題大師</span></td>
+            <td><strong>會考出題大師 SKILL 壓縮包</strong></td>
+            <td>技能安裝包 (.zip)</td>
+            <td>直接解壓縮或上傳安裝，獲得素養導向命題專家技能</td>
+            <td><a href="https://drive.google.com/file/d/15kB1ypsaHe7TzS2alsHWQNW9Up6JB6Fa/view?usp=drive_link" target="_blank" class="resource-btn"><i class="fas fa-box-open"></i> 下載出題SKILL</a></td>
+          </tr>
+          <tr>
+            <td><span class="category-tag">會考出題大師</span></td>
+            <td><strong>會考題目截圖與題型範例雲端資料夾</strong></td>
+            <td>範例題庫夾</td>
+            <td>包含各學科圖表題、實驗題截圖，用於測試 @呼叫SKILL 產題</td>
+            <td><a href="https://drive.google.com/drive/folders/1A1um6EY73KvPilgO9iC31zmezBWAEUvx?usp=drive_link" target="_blank" class="resource-btn"><i class="fas fa-folder-open"></i> 開啟題庫夾</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 實戰提示詞庫 (獨立分頁) -->
+    <section class="resource-center" id="promptsCenter" style="display: none;">
+      <div style="margin-bottom: 1.5rem;">
+        <h2 style="font-size: 1.5rem; font-weight: 800;"><i class="fas fa-terminal" style="color: var(--accent-primary);"></i> 橘子老師實戰提示詞指令集 (可一鍵複製)</h2>
+        <p style="color: var(--text-secondary); margin-top: 0.3rem;">點擊各指令右上角的「複製」按鈕，即可直接貼入 Gemini、NotebookLM 或 Antigravity 執行：</p>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <!-- Prompt 1 -->
+        <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 14px; padding: 1.5rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem;">
+            <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--accent-primary);">
+              <i class="fas fa-folder-plus"></i> 1. 語音轉逐字稿與會議記錄 (雲端硬碟自動建立資料夾歸檔版)
+            </h3>
+            <button class="btn-action-primary" style="padding: 0.4rem 1rem; font-size: 0.82rem;" onclick="copyToClipboard(`1.開啟Gemini Notebook 中[語音辨識]筆記本，將筆記本中語音檔12月30日 上午行政會報.mp3進行語音辨識，如果語音中有不同人物的語音，請以講者1、講者2來標示，將辨識後的逐字稿儲存在雲端硬碟中會議工具資料夾，並且以當時日期時間為名稱建立資料夾，將辨識後的逐字稿以文字檔儲存在雲端硬碟該資料夾中(檔案命名: 資料夾名稱-辨識逐字稿)\n2.依照Gemini Notebook 中語音辨識筆記本中行政會報會議記錄範本.pdf格式，將逐字稿內容整理成範本格式，並儲存檔案在該資料夾中(檔案命名:資料夾名稱-會議紀錄彙整)`)">
+              <i class="far fa-copy"></i> 複製此指令
+            </button>
+          </div>
+          <pre style="background: var(--code-bg); padding: 1rem; border-radius: 8px; font-family: Consolas, monospace; font-size: 0.88rem; white-space: pre-wrap; line-height: 1.6; color: var(--text-primary); border: 1px dashed var(--accent-border);">1.開啟Gemini Notebook 中[語音辨識]筆記本，將筆記本中語音檔12月30日 上午行政會報.mp3進行語音辨識，如果語音中有不同人物的語音，請以講者1、講者2來標示，將辨識後的逐字稿儲存在雲端硬碟中會議工具資料夾，並且以當時日期時間為名稱建立資料夾，將辨識後的逐字稿以文字檔儲存在雲端硬碟該資料夾中(檔案命名: 資料夾名稱-辨識逐字稿)
+2.依照Gemini Notebook 中語音辨識筆記本中行政會報會議記錄範本.pdf格式，將逐字稿內容整理成範本格式，並儲存檔案在該資料夾中(檔案命名:資料夾名稱-會議紀錄彙整)</pre>
+        </div>
+
+        <!-- Prompt 2 -->
+        <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 14px; padding: 1.5rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem;">
+            <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--accent-primary);">
+              <i class="fas fa-file-download"></i> 2. 語音轉逐字稿與會議記錄 (直接生成檔案下載版)
+            </h3>
+            <button class="btn-action-primary" style="padding: 0.4rem 1rem; font-size: 0.82rem;" onclick="copyToClipboard(`開啟Gemini Notebook 中[語音辨識]筆記本，將筆記本中mp3語音檔進行語音辨識，如果語音中有不同人物的語音，請以講者1(身分)、講者2(身分)來標示(如果知道講者身分則標註身分)，將辨識後的逐字稿提供txt檔案下載，檔案命名: 當天日期時間-辨識逐字稿\n2.依照Gemini Notebook 中語音辨識筆記本中行政會報會議記錄範本.pdf格式，將逐字稿內容整理成範本格式，提供彙整後會議紀錄google文件檔案下載，檔案命名: 當天日期時間-會議紀錄彙整`)">
+              <i class="far fa-copy"></i> 複製此指令
+            </button>
+          </div>
+          <pre style="background: var(--code-bg); padding: 1rem; border-radius: 8px; font-family: Consolas, monospace; font-size: 0.88rem; white-space: pre-wrap; line-height: 1.6; color: var(--text-primary); border: 1px dashed var(--accent-border);">開啟Gemini Notebook 中[語音辨識]筆記本，將筆記本中mp3語音檔進行語音辨識，如果語音中有不同人物的語音，請以講者1(身分)、講者2(身分)來標示(如果知道講者身分則標註身分)，將辨識後的逐字稿提供txt檔案下載，檔案命名: 當天日期時間-辨識逐字稿
+2.依照Gemini Notebook 中語音辨識筆記本中行政會報會議記錄範本.pdf格式，將逐字稿內容整理成範本格式，提供彙整後會議紀錄google文件檔案下載，檔案命名: 當天日期時間-會議紀錄彙整</pre>
+        </div>
+
+        <!-- Prompt 3 -->
+        <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 14px; padding: 1.5rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem;">
+            <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--accent-primary);">
+              <i class="fas fa-gamepad"></i> 3. 課程複習射擊遊戲對戰版 (讀取雲端課本與教學進度排程)
+            </h3>
+            <button class="btn-action-primary" style="padding: 0.4rem 1rem; font-size: 0.82rem;" onclick="copyToClipboard(`@Google 雲端硬碟 讀取射擊遊戲/南一版_七年級科技(資訊科技).pdf，依照執行當天日期讀取當週單元/主題名稱與活動內容，並對照射擊遊戲資料夾中課本內容檔案，使用 @射擊遊戲對戰版 輸入對應課本內容生成對戰遊戲html檔案，並且將生成的html檔案儲存在射擊遊戲/output資料夾中，檔案名稱為當日日期.html`)">
+              <i class="far fa-copy"></i> 複製此指令
+            </button>
+          </div>
+          <pre style="background: var(--code-bg); padding: 1rem; border-radius: 8px; font-family: Consolas, monospace; font-size: 0.88rem; white-space: pre-wrap; line-height: 1.6; color: var(--text-primary); border: 1px dashed var(--accent-border);">@Google 雲端硬碟 讀取射擊遊戲/南一版_七年級科技(資訊科技).pdf，依照執行當天日期讀取當週單元/主題名稱與活動內容，並對照射擊遊戲資料夾中課本內容檔案，使用 @射擊遊戲對戰版 輸入對應課本內容生成對戰遊戲html檔案，並且將生成的html檔案儲存在射擊遊戲/output資料夾中，檔案名稱為當日日期.html</pre>
+        </div>
+
+        <!-- Prompt 4 -->
+        <div style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 14px; padding: 1.5rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem;">
+            <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--accent-primary);">
+              <i class="fas fa-book-reader"></i> 4. 雲端皮克斯風格繪本生成核心指令 (維持角色外觀一致性)
+            </h3>
+            <button class="btn-action-primary" style="padding: 0.4rem 1rem; font-size: 0.82rem;" onclick="copyToClipboard(`依照資料來源生成10頁皮克斯風格圖像繪本故事，每頁故事內容依照腳本內容描述，畫面依照每頁描述畫面呈現，依照角色設定故事角色1，角色2，每一頁中角色造型五官須維持與設定一致`)">
+              <i class="far fa-copy"></i> 複製此指令
+            </button>
+          </div>
+          <pre style="background: var(--code-bg); padding: 1rem; border-radius: 8px; font-family: Consolas, monospace; font-size: 0.88rem; white-space: pre-wrap; line-height: 1.6; color: var(--text-primary); border: 1px dashed var(--accent-border);">依照資料來源生成10頁皮克斯風格圖像繪本故事，每頁故事內容依照腳本內容描述，畫面依照每頁描述畫面呈現，依照角色設定故事角色1，角色2，每一頁中角色造型五官須維持與設定一致</pre>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 全螢幕燈箱投影片播放檢視器 (Lightbox / Deck Player) -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <div class="lightbox-header">
+      <div class="lightbox-page-indicator" id="lightboxPageIndicator">第 01 / 52 頁</div>
+      <button class="lightbox-close-btn" id="btnLightboxClose" title="關閉檢視 (ESC)">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <div class="lightbox-main">
+      <button class="lightbox-nav-btn lightbox-prev" id="btnLightboxPrev" title="上一頁 (←)">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+
+      <img src="" alt="Slide Preview" class="lightbox-image" id="lightboxImg">
+
+      <button class="lightbox-nav-btn lightbox-next" id="btnLightboxNext" title="下一頁 (→)">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div class="lightbox-footer">
+      <div id="lightboxTitle" style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.3rem;"></div>
+      <div style="font-size: 0.82rem; color: #94a3b8;">
+        提示：可使用鍵盤左右方向鍵 (← / →) 切換頁面，按 ESC 鍵離開播放
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast 提示訊息浮條 -->
+  <div class="toast-notice" id="toastNotice">
+    <i class="fas fa-check-circle" style="color: #22c55e;"></i>
+    <span id="toastMessage">已成功複製提示詞！</span>
+  </div>
+
+  <!-- 頁尾 -->
+  <footer class="site-footer">
+    <div class="footer-social-links">
+      <a href="https://www.facebook.com/ju.laoshi" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-facebook"></i> 橘子老師
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=61580433065847" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-facebook-messenger"></i> 橘子老師教室
+      </a>
+    </div>
+    <p>© 2026 橘子老師 · AI在教學上的應用 實戰工作坊 · 本系統支援純前端免伺服器運作</p>
+  </footer>
+
+  <!-- 數據與主要腳本 -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
