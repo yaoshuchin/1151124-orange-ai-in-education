@@ -62,7 +62,15 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- 2. 字型大小切換 (中 / 大 / 特大) ---
   const fontButtons = document.querySelectorAll('[data-font-val]');
   function setFontSize(fontVal) {
+    document.documentElement.setAttribute('data-font', fontVal);
     document.body.setAttribute('data-font', fontVal);
+    if (fontVal === 'medium') {
+      document.documentElement.style.fontSize = '16px';
+    } else if (fontVal === 'large') {
+      document.documentElement.style.fontSize = '19px';
+    } else if (fontVal === 'xlarge') {
+      document.documentElement.style.fontSize = '22px';
+    }
     localStorage.setItem('orange_ai_font', fontVal);
     fontButtons.forEach(btn => {
       btn.classList.toggle('active', btn.getAttribute('data-font-val') === fontVal);

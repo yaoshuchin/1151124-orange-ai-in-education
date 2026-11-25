@@ -70,7 +70,7 @@ window.DECK_DATA = {
         "橘子老師",
         "AI教學"
       ],
-      "screenshot": "assets/slides/slide_01.png",
+      "screenshot": "assets/slides/slide_01.webp",
       "raw_texts": [
         "Ai在教學上的應用",
         "橘子老師",
@@ -93,7 +93,7 @@ window.DECK_DATA = {
         "粉絲專頁",
         "教學社群"
       ],
-      "screenshot": "assets/slides/slide_02.png",
+      "screenshot": "assets/slides/slide_02.webp",
       "raw_texts": [
         "Ai在教學上的應用",
         "橘子老師",
@@ -122,7 +122,7 @@ window.DECK_DATA = {
         "教育社群",
         "交流成長"
       ],
-      "screenshot": "assets/slides/slide_03.png",
+      "screenshot": "assets/slides/slide_03.webp",
       "raw_texts": [
         "橘子老師",
         "https://www.facebook.com/ju.laoshi",
@@ -151,7 +151,7 @@ window.DECK_DATA = {
         "Google生態",
         "Gemini"
       ],
-      "screenshot": "assets/slides/slide_04.png",
+      "screenshot": "assets/slides/slide_04.webp",
       "raw_texts": [
         "橘子老師教室",
         "https://www.facebook.com/profile.php?id=61580433065847",
@@ -174,7 +174,7 @@ window.DECK_DATA = {
         "Gemini",
         "長文本"
       ],
-      "screenshot": "assets/slides/slide_05.png",
+      "screenshot": "assets/slides/slide_05.webp",
       "raw_texts": [
         "Gemini",
         "5",
@@ -195,7 +195,7 @@ window.DECK_DATA = {
         "多模態",
         "音訊處理"
       ],
-      "screenshot": "assets/slides/slide_06.png",
+      "screenshot": "assets/slides/slide_06.webp",
       "raw_texts": [
         "Gemini",
         "6",
@@ -216,7 +216,7 @@ window.DECK_DATA = {
         "Notebook",
         "知識管理"
       ],
-      "screenshot": "assets/slides/slide_07.png",
+      "screenshot": "assets/slides/slide_07.webp",
       "raw_texts": [
         "Gemini",
         "7",
@@ -238,7 +238,7 @@ window.DECK_DATA = {
         "會議記錄",
         "行政減負"
       ],
-      "screenshot": "assets/slides/slide_08.png",
+      "screenshot": "assets/slides/slide_08.webp",
       "raw_texts": [
         "Gemini",
         "語音轉逐字稿-會議記錄",
@@ -260,7 +260,7 @@ window.DECK_DATA = {
         "素材準備",
         "格式對齊"
       ],
-      "screenshot": "assets/slides/slide_09.png",
+      "screenshot": "assets/slides/slide_09.webp",
       "raw_texts": [
         "Gemini",
         "語音轉逐字稿-會議記錄",
@@ -284,7 +284,7 @@ window.DECK_DATA = {
         "雲端硬碟自動化",
         "講者辨識"
       ],
-      "screenshot": "assets/slides/slide_10.png",
+      "screenshot": "assets/slides/slide_10.webp",
       "raw_texts": [
         "語音轉逐字稿-會議記錄",
         "Gemini",
@@ -312,7 +312,7 @@ window.DECK_DATA = {
         "一鍵下載",
         "免設定雲端"
       ],
-      "screenshot": "assets/slides/slide_11.png",
+      "screenshot": "assets/slides/slide_11.webp",
       "raw_texts": [
         "語音轉逐字稿-會議記錄",
         "Gemini",
@@ -351,7 +351,7 @@ window.DECK_DATA = {
         "版本比對",
         "教學指引"
       ],
-      "screenshot": "assets/slides/slide_12.png",
+      "screenshot": "assets/slides/slide_12.webp",
       "raw_texts": [
         "語音轉逐字稿-會議記錄",
         "Gemini",
@@ -389,7 +389,7 @@ window.DECK_DATA = {
         "SKILL封裝",
         "可重用技能"
       ],
-      "screenshot": "assets/slides/slide_13.png",
+      "screenshot": "assets/slides/slide_13.webp",
       "raw_texts": [
         "語音轉逐字稿-會議記錄",
         "Gemini",
@@ -418,7 +418,7 @@ window.DECK_DATA = {
         "SKILL下載",
         "自訂技能"
       ],
-      "screenshot": "assets/slides/slide_14.png",
+      "screenshot": "assets/slides/slide_14.webp",
       "raw_texts": [
         "語音轉逐字稿-會議記錄",
         "Gemini",
@@ -449,7 +449,7 @@ window.DECK_DATA = {
         "參數配置",
         "處室客製化"
       ],
-      "screenshot": "assets/slides/slide_15.png",
+      "screenshot": "assets/slides/slide_15.webp",
       "raw_texts": [
         "語音轉逐字稿-會議記錄",
         "Gemini",
@@ -475,7 +475,7 @@ window.DECK_DATA = {
         "上傳啟用",
         "自動化工作流"
       ],
-      "screenshot": "assets/slides/slide_16.png",
+      "screenshot": "assets/slides/slide_16.webp",
       "raw_texts": [
         "語音轉逐字稿-會議記錄",
         "Gemini",
@@ -500,7 +500,7 @@ window.DECK_DATA = {
         "行政轉教學",
         "承先啟後"
       ],
-      "screenshot": "assets/slides/slide_17.png",
+      "screenshot": "assets/slides/slide_17.webp",
       "raw_texts": [
         "語音轉逐字稿-會議記錄",
         "Gemini",
@@ -526,7 +526,7 @@ window.DECK_DATA = {
         "射擊遊戲",
         "課堂互動"
       ],
-      "screenshot": "assets/slides/slide_18.png",
+      "screenshot": "assets/slides/slide_18.webp",
       "raw_texts": [
         "課程複習射擊遊戲",
         "SKILL下載",
@@ -553,7 +553,7 @@ window.DECK_DATA = {
         "SKILL下載",
         "喚醒指令"
       ],
-      "screenshot": "assets/slides/slide_19.png",
+      "screenshot": "assets/slides/slide_19.webp",
       "raw_texts": [
         "課程複習射擊遊戲",
         "SKILL下載",
@@ -578,7 +578,7 @@ window.DECK_DATA = {
         "單人模式",
         "HTML5遊戲"
       ],
-      "screenshot": "assets/slides/slide_20.png",
+      "screenshot": "assets/slides/slide_20.webp",
       "raw_texts": [
         "課程複習射擊遊戲",
         "上傳資料 ，",
@@ -606,7 +606,7 @@ window.DECK_DATA = {
         "雙人競賽",
         "刺激複習"
       ],
-      "screenshot": "assets/slides/slide_21.png",
+      "screenshot": "assets/slides/slide_21.webp",
       "raw_texts": [
         "課程複習射擊遊戲",
         "上傳資料 ，",
@@ -642,7 +642,7 @@ window.DECK_DATA = {
         "課本PDF",
         "進度對齊"
       ],
-      "screenshot": "assets/slides/slide_22.png",
+      "screenshot": "assets/slides/slide_22.webp",
       "raw_texts": [
         "課程複習射擊遊戲-對戰版",
         "SKILL下載",
@@ -678,7 +678,7 @@ window.DECK_DATA = {
         "無人值守",
         "自動更新"
       ],
-      "screenshot": "assets/slides/slide_23.png",
+      "screenshot": "assets/slides/slide_23.webp",
       "raw_texts": [
         "課程複習射擊遊戲-對戰版",
         "@Google 雲端硬碟 讀取射擊遊戲/南一版_七年級科技(資訊科技).pdf，依照執行當天日期讀取當週單元/主題名稱與活動內容，並對照射擊遊戲資料夾中課本內容檔案，使用 @射擊遊戲對戰版 輸入對應課本內容生成對戰遊戲html檔案",
@@ -706,7 +706,7 @@ window.DECK_DATA = {
         "跨載具",
         "隨開即玩"
       ],
-      "screenshot": "assets/slides/slide_24.png",
+      "screenshot": "assets/slides/slide_24.webp",
       "raw_texts": [
         "課程複習射擊遊戲-對戰版排程執行",
         "@Google 雲端硬碟 讀取射擊遊戲/南一版_七年級科技(資訊科技).pdf，依照執行當天日期讀取當週單元/主題名稱與活動內容，並對照射擊遊戲資料夾中課本內容檔案，使用 @射擊遊戲對戰版 輸入對應課本內容生成對戰遊戲html檔案，並且將生成的html檔案儲存在射擊遊戲/output資料夾中，檔案名稱為當日日期.html",
@@ -730,7 +730,7 @@ window.DECK_DATA = {
         "單元小結",
         "跨域整合"
       ],
-      "screenshot": "assets/slides/slide_25.png",
+      "screenshot": "assets/slides/slide_25.webp",
       "raw_texts": [
         "課程複習射擊遊戲-對戰版排程執行",
         "@Google 雲端硬碟 讀取射擊遊戲/南一版_七年級科技(資訊科技).pdf，依照執行當天日期讀取當週單元/主題名稱與活動內容，並對照射擊遊戲資料夾中課本內容檔案，使用 @射擊遊戲對戰版 輸入對應課本內容生成對戰遊戲html檔案，並且將生成的html檔案儲存在射擊遊戲/output資料夾中，檔案名稱為當日日期.html",
@@ -757,7 +757,7 @@ window.DECK_DATA = {
         "皮克斯風格",
         "工作流"
       ],
-      "screenshot": "assets/slides/slide_26.png",
+      "screenshot": "assets/slides/slide_26.webp",
       "raw_texts": [
         "雲端上的繪本生成器",
         "Google 體系AI工作流新視野",
@@ -783,7 +783,7 @@ window.DECK_DATA = {
         "兩大步驟",
         "標準SOP"
       ],
-      "screenshot": "assets/slides/slide_27.png",
+      "screenshot": "assets/slides/slide_27.webp",
       "raw_texts": [
         "1.建立SKILL",
         "2.排程執行",
@@ -810,7 +810,7 @@ window.DECK_DATA = {
         "提示詞模板",
         "SKILL下載"
       ],
-      "screenshot": "assets/slides/slide_28.png",
+      "screenshot": "assets/slides/slide_28.webp",
       "raw_texts": [
         "Notebook",
         "繪本製作",
@@ -841,7 +841,7 @@ window.DECK_DATA = {
         "角色設定",
         "一致性維持"
       ],
-      "screenshot": "assets/slides/slide_29.png",
+      "screenshot": "assets/slides/slide_29.webp",
       "raw_texts": [
         "Notebook 繪本製作",
         "SKILL",
@@ -865,7 +865,7 @@ window.DECK_DATA = {
         "分鏡腳本",
         "視覺描述"
       ],
-      "screenshot": "assets/slides/slide_30.png",
+      "screenshot": "assets/slides/slide_30.webp",
       "raw_texts": [
         "Notebook 繪本製作",
         "SKILL",
@@ -889,7 +889,7 @@ window.DECK_DATA = {
         "3D渲染",
         "光影細節"
       ],
-      "screenshot": "assets/slides/slide_31.png",
+      "screenshot": "assets/slides/slide_31.webp",
       "raw_texts": [
         "Notebook 繪本製作",
         "SKILL",
@@ -912,7 +912,7 @@ window.DECK_DATA = {
         "角色定稿",
         "錨定圖"
       ],
-      "screenshot": "assets/slides/slide_32.png",
+      "screenshot": "assets/slides/slide_32.webp",
       "raw_texts": [
         "Notebook 繪本製作",
         "SKILL",
@@ -936,7 +936,7 @@ window.DECK_DATA = {
         "設定文件",
         "PDF彙整"
       ],
-      "screenshot": "assets/slides/slide_33.png",
+      "screenshot": "assets/slides/slide_33.webp",
       "raw_texts": [
         "Notebook 繪本製作",
         "SKILL",
@@ -961,7 +961,7 @@ window.DECK_DATA = {
         "滿版無字",
         "純淨畫面"
       ],
-      "screenshot": "assets/slides/slide_34.png",
+      "screenshot": "assets/slides/slide_34.webp",
       "raw_texts": [
         "Notebook 繪本製作",
         "SKILL",
@@ -989,7 +989,7 @@ window.DECK_DATA = {
         "連續鏡頭",
         "逐頁生成"
       ],
-      "screenshot": "assets/slides/slide_35.png",
+      "screenshot": "assets/slides/slide_35.webp",
       "raw_texts": [
         "Notebook 繪本製作",
         "SKILL",
@@ -1020,7 +1020,7 @@ window.DECK_DATA = {
         "排程自動化",
         "後台生成"
       ],
-      "screenshot": "assets/slides/slide_36.png",
+      "screenshot": "assets/slides/slide_36.webp",
       "raw_texts": [
         "Notebook 繪本製作",
         "SKILL",
@@ -1052,7 +1052,7 @@ window.DECK_DATA = {
         "排程提示詞",
         "定時任務"
       ],
-      "screenshot": "assets/slides/slide_37.png",
+      "screenshot": "assets/slides/slide_37.webp",
       "raw_texts": [
         "Notebook 繪本製作",
         "SKILL",
@@ -1080,7 +1080,7 @@ window.DECK_DATA = {
         "任務設定",
         "路徑配置"
       ],
-      "screenshot": "assets/slides/slide_38.png",
+      "screenshot": "assets/slides/slide_38.webp",
       "raw_texts": [
         "將SKILL排程自動執行",
         "Notebook 繪本製作 排程",
@@ -1110,7 +1110,7 @@ window.DECK_DATA = {
         "範例比對",
         "驗證確認"
       ],
-      "screenshot": "assets/slides/slide_39.png",
+      "screenshot": "assets/slides/slide_39.webp",
       "raw_texts": [
         "Notebook 繪本製作 排程",
         "下載排程提示詞",
@@ -1136,7 +1136,7 @@ window.DECK_DATA = {
         "知識上傳",
         "記憶鎖定"
       ],
-      "screenshot": "assets/slides/slide_40.png",
+      "screenshot": "assets/slides/slide_40.webp",
       "raw_texts": [
         "Notebook 繪本製作",
         "SKILL",
@@ -1167,7 +1167,7 @@ window.DECK_DATA = {
         "角色一致性",
         "10頁繪本"
       ],
-      "screenshot": "assets/slides/slide_41.png",
+      "screenshot": "assets/slides/slide_41.webp",
       "raw_texts": [
         "Notebook 繪本製作",
         "SKILL",
@@ -1195,7 +1195,7 @@ window.DECK_DATA = {
         "品質檢驗",
         "色彩連貫"
       ],
-      "screenshot": "assets/slides/slide_42.png",
+      "screenshot": "assets/slides/slide_42.webp",
       "raw_texts": [
         "Notebook 繪本製作",
         "SKILL",
@@ -1224,7 +1224,7 @@ window.DECK_DATA = {
         "影音摘要",
         "數位出版"
       ],
-      "screenshot": "assets/slides/slide_43.png",
+      "screenshot": "assets/slides/slide_43.webp",
       "raw_texts": [
         "Notebook 繪本製作",
         "SKILL",
@@ -1255,7 +1255,7 @@ window.DECK_DATA = {
         "評量轉向",
         "出題大師"
       ],
-      "screenshot": "assets/slides/slide_44.png",
+      "screenshot": "assets/slides/slide_44.webp",
       "raw_texts": [
         "Notebook 繪本製作",
         "SKILL",
@@ -1284,7 +1284,7 @@ window.DECK_DATA = {
         "SKILL安裝",
         "免手動調教"
       ],
-      "screenshot": "assets/slides/slide_45.png",
+      "screenshot": "assets/slides/slide_45.webp",
       "raw_texts": [
         "Gemini",
         "會考出題大師",
@@ -1315,7 +1315,7 @@ window.DECK_DATA = {
         "截圖出題",
         "呼叫指令"
       ],
-      "screenshot": "assets/slides/slide_46.png",
+      "screenshot": "assets/slides/slide_46.webp",
       "raw_texts": [
         "會考出題大師",
         "SKILL",
@@ -1343,7 +1343,7 @@ window.DECK_DATA = {
         "範例題庫",
         "圖表分析"
       ],
-      "screenshot": "assets/slides/slide_47.png",
+      "screenshot": "assets/slides/slide_47.webp",
       "raw_texts": [
         "會考出題大師",
         "SKILL",
@@ -1375,7 +1375,7 @@ window.DECK_DATA = {
         "類題變形",
         "誘答設計"
       ],
-      "screenshot": "assets/slides/slide_48.png",
+      "screenshot": "assets/slides/slide_48.webp",
       "raw_texts": [
         "會考出題大師",
         "SKILL",
@@ -1401,7 +1401,7 @@ window.DECK_DATA = {
         "迷思概念",
         "詳解產製"
       ],
-      "screenshot": "assets/slides/slide_49.png",
+      "screenshot": "assets/slides/slide_49.webp",
       "raw_texts": [
         "會考出題大師",
         "SKILL",
@@ -1424,7 +1424,7 @@ window.DECK_DATA = {
         "認知維度",
         "難易度梯度"
       ],
-      "screenshot": "assets/slides/slide_50.png",
+      "screenshot": "assets/slides/slide_50.webp",
       "raw_texts": [
         "會考出題大師",
         "SKILL",
@@ -1448,7 +1448,7 @@ window.DECK_DATA = {
         "雙欄列印",
         "Google表單"
       ],
-      "screenshot": "assets/slides/slide_51.png",
+      "screenshot": "assets/slides/slide_51.webp",
       "raw_texts": [
         "會考出題大師",
         "SKILL",
@@ -1472,7 +1472,7 @@ window.DECK_DATA = {
         "AI教育願景",
         "致謝"
       ],
-      "screenshot": "assets/slides/slide_52.png",
+      "screenshot": "assets/slides/slide_52.webp",
       "raw_texts": [
         "會考出題大師",
         "SKILL",
